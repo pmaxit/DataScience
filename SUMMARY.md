@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Speed up the python data analysis](README.md)
+* [Speed up Python Data Analysis](README.md)
 

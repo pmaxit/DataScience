@@ -1,4 +1,8 @@
-# Speed up the python data analysis
+---
+description: Pandas on Steroids
+---
+
+# Speed up Python Data Analysis
 
 Sometimes you open a big dataset with python's pandas, try to get a few metrics, and the whole thing just freezes horribly.
 
@@ -23,8 +27,6 @@ A Dask dataframe is a large parallel DataFrame composed of many smaller pandas D
 Dask dataFrames coordinate many Pandas DataFrames / Series arranged along the index. A Dask DataFrame is petitioned row-wise, grouping rows by index value for efficiency. These pandas objects may live on disk or on other machines.
 
 
-
-![](.gitbook/assets/image.png)
 
 Here are couple of methods we can use with Dask Dataframe
 
